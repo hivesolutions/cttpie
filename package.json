@@ -1,0 +1,49 @@
+{
+    "name": "ctt-service",
+    "version": "0.1.2",
+    "description": "Simple Web App for CTT service wrapping",
+    "keywords": [
+        "barcode",
+        "qr"
+    ],
+    "homepage": "https://github.com/hivesolutions/barcodies#readme",
+    "bugs": {
+        "url": "https://github.com/hivesolutions/barcodies/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hivesolutions/barcodies.git"
+    },
+    "license": "Apache-2.0",
+    "author": "Hive Solutions",
+    "files": [
+        "app.js",
+        "lib/**/*.js",
+        "test/**/*.js"
+    ],
+    "main": "app.js",
+    "scripts": {
+        "lint": "eslint \"./lib/**/*.js\"",
+        "prettier": "prettier \"./**/*.{js,json}\" --write",
+        "start": "node app.js",
+        "test": "mocha --recursive",
+        "upgrade": "npx sort-package-json && ncu -au"
+    },
+    "dependencies": {
+        "consola": "^2.3.2",
+        "express": "^4.16.4",
+        "hive-js-util": "^0.2.0",
+        "mz": "^2.7.0",
+        "qr-image": "^3.2.0",
+        "qrcode": "^1.3.2"
+    },
+    "devDependencies": {
+        "eslint": "^5.12.0",
+        "eslint-config-hive": "^0.1.7",
+        "mocha": "^5.2.0",
+        "npm-check-updates": "^2.15.0",
+        "prettier": "^1.15.3",
+        "prettier-config-hive": "^0.1.1",
+        "sort-package-json": "^1.17.1"
+    }
+}
