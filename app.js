@@ -2,6 +2,7 @@
 const express = require("express");
 const process = require("process");
 const util = require("hive-js-util");
+const info = require("./package");
 const lib = require("./lib");
 
 // builds the initial application object to be used
@@ -30,6 +31,13 @@ app.get("/", (req, res, next) => {
         await engineInstance.track(req, res, next);
     }
     clojure().catch(next);
+});
+
+app.get("/info", (req, res, next) => {
+    res.json({
+        name: info.name,
+        version: info.version
+    });
 });
 
 app.listen(lib.PORT, lib.HOSTNAME, () => {
