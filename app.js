@@ -36,7 +36,8 @@ app.get("/", (req, res, next) => {
 app.get("/info", (req, res, next) => {
     res.json({
         name: info.name,
-        version: info.version
+        version: info.version,
+        node: process.version
     });
 });
 
