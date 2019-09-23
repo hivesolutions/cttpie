@@ -41,8 +41,8 @@ app.get("/info", (req, res, next) => {
     });
 });
 
-app.listen(lib.PORT, lib.HOSTNAME, () => {
+app.listen(lib.PORT, lib.HOST, () => {
     lib.startLogging();
-    util.Logging.info("Listening on " + lib.HOSTNAME + ":" + String(lib.PORT));
+    util.Logging.info("Listening on " + lib.HOST + ":" + String(lib.PORT));
     lib.init();
 });
