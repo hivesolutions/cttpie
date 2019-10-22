@@ -2,6 +2,12 @@
 
 Simple API service wrapping CTT's HTML website.
 
+## Configuration
+
+| Name | Type | Description |
+| ----- | ----- | ----- |
+| `BARCODIES_KEY` | `str` | Secret key that should be passed in protected calls so that the server side "trusts" the client side (authentication) (defaults to `None`). |
+
 ## License
 
 CTTPie is currently licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/).
