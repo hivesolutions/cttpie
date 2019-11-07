@@ -37,15 +37,16 @@
         "express": "^4.17.1",
         "hive-js-util": "^0.2.2",
         "node-html-parser": "^1.1.16",
-        "request": "^2.88.0"
+        "request": "^2.88.0",
+        "yonius": "^0.2.12"
     },
     "devDependencies": {
-        "eslint": "^6.5.1",
-        "eslint-config-hive": "^0.1.22",
+        "eslint": "^6.6.0",
+        "eslint-config-hive": "^0.2.2",
         "mocha": "^6.2.2",
-        "npm-check-updates": "^3.1.24",
+        "npm-check-updates": "^3.2.0",
         "prettier": "^1.18.2",
         "prettier-config-hive": "^0.1.1",
-        "sort-package-json": "^1.22.1"
+        "sort-package-json": "^1.23.1"
     }
 }
