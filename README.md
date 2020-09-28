@@ -4,9 +4,9 @@ Simple API service wrapping CTT's HTML website.
 
 ## Configuration
 
-| Name | Type | Default | Description |
-| ----- | ----- | ----- | ----- |
-| `BARCODIES_KEY` | `str` | `None` | Secret key that should be passed in protected calls so that the server side "trusts" the client side (authentication). |
+| Name            | Type  | Default | Description                                                                                                            |
+| --------------- | ----- | ------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `BARCODIES_KEY` | `str` | `None`  | Secret key that should be passed in protected calls so that the server side "trusts" the client side (authentication). |
 
 ## License
 

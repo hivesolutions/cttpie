@@ -39,10 +39,10 @@
         "hive-js-util": "^0.2.2",
         "node-html-parser": "^1.2.21",
         "request": "^2.88.2",
-        "yonius": "^0.5.3"
+        "yonius": "^0.5.4"
     },
     "devDependencies": {
-        "eslint": "^7.9.0",
+        "eslint": "^7.10.0",
         "eslint-config-hive": "^0.3.3",
         "mocha": "^8.1.3",
         "nodemon": "^2.0.4",
