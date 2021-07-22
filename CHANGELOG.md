@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Support for header parsing in tracking page
+*
 
 ### Changed
 
@@ -18,3 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 *
+
+## [0.2.0] - 2021-07-22
+
+### Added
+
+* Support for header parsing (status, date, hour, etc.) for the tracking page
