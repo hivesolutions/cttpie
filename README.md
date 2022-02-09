@@ -4,11 +4,12 @@ Simple API service wrapping CTT's HTML website.
 
 ## Configuration
 
-| Name         | Type  | Default | Description                                                                                                            |
-| ------------ | ----- | ------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `CTTPIE_KEY` | `str` | `None`  | Secret key that should be passed in protected calls so that the server side "trusts" the client side (authentication). |
-| `CSRF_TOKEN` | `str` | `None`  | Secret [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery) token to be used for CTT API.   |
-| `COOKIE`     | `str` | `None`  | Secret cookie to be used for CTT API authentication.                                                                   |
+| Name             | Type  | Default | Description                                                                                                            |
+| ---------------- | ----- | ------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `CTTPIE_KEY`     | `str` | `None`  | Secret key that should be passed in protected calls so that the server side "trusts" the client side (authentication). |
+| `CTTPIE_HANDLER` | `str` | `neo`   | The handler that is going to be used to find and process tracking numbers (eg: `neo`, `legacy`).                       |
+| `CSRF_TOKEN`     | `str` | `None`  | Secret [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery) token to be used for CTT API.                  |
+| `COOKIE`         | `str` | `None`  | Secret cookie to be used for CTT API authentication.                                                                   |
 
 ## License
 
