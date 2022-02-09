@@ -51,5 +51,8 @@
         "prettier": "^2.5.1",
         "prettier-config-hive": "^0.1.7",
         "sort-package-json": "^1.54.0"
+    },
+    "engines": {
+        "node": ">=12"
     }
 }
