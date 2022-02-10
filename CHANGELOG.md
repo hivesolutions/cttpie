@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 * Bumped dependency packages
+* Better `try` and `catch` for parsing
 
 ### Fixed
 
