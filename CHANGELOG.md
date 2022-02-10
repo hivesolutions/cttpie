@@ -9,16 +9,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+*
+
+### Changed
+
+*
+
+### Fixed
+
+*
+
+## [0.3.1] - 2022-02-10
+
+### Added
+
 * Dynamic support for handlers using the `CTTPIE_HANDLER` configuration value
 
 ### Changed
 
 * Bumped dependency packages
 * Better `try` and `catch` for parsing
-
-### Fixed
-
-*
 
 ## [0.3.0] - 2022-02-09
 
