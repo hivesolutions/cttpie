@@ -9,16 +9,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+*
+
+### Changed
+
+*
+
+### Fixed
+
+*
+
+## [0.4.0] - 2022-02-12
+
+### Added
+
 * API version support for more flexibility in CTT API consumption
 * Automated API version retrieval process
 
 ### Changed
 
 * Moved from `request` to `node-fetch`
-
-### Fixed
-
-*
 
 ## [0.3.1] - 2022-02-10
 
