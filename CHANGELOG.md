@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 * API version support for more flexibility in CTT API consumption
+* Automated API version retrieval process
 
 ### Changed
 
