@@ -40,3 +40,4 @@ CTTPie is currently licensed under the [Apache License, Version 2.0](http://www.
 [![Build Status GitHub](https://github.com/hivesolutions/cttpie/workflows/Main%20Workflow/badge.svg)](https://github.com/hivesolutions/cttpie/actions)
 [![npm Status](https://img.shields.io/npm/v/cttpie.svg)](https://www.npmjs.com/package/cttpie)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/)
+[![Docker Automated build](https://img.shields.io/docker/automated/hivesolutions/cttpie)](https://hub.docker.com/repository/docker/hivesolutions/cttpie)
