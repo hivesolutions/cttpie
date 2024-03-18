@@ -1,8 +1,6 @@
 dist: trusty
 language: node_js
 node_js:
-  - "14"
-  - "15"
   - "16"
   - "17"
   - "18"
