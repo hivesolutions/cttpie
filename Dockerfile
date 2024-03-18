@@ -19,4 +19,4 @@ WORKDIR /app
 RUN apk update && apk add nodejs npm
 RUN npm install
 
-CMD ["/usr/bin/node", "/app/app.js"]
+CMD ["/usr/bin/node", "--max-http-header-size=131072 ", "/app/app.js"]
