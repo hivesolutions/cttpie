@@ -53,6 +53,6 @@
         "sort-package-json": "^2.8.0"
     },
     "engines": {
-        "node": ">=16"
+        "node": ">=14"
     }
 }
