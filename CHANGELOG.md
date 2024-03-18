@@ -9,15 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-*
+* Support for mode HTTP header memory space
 
 ### Changed
 
-*
+* Bumped packages
 
 ### Fixed
 
-*
+* Issue related to headers memory space allocation (`--max-http-header-size`)
 
 ## [0.4.0] - 2022-02-12
 

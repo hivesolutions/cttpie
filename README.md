@@ -1,6 +1,24 @@
 # CTTPie
 
-Simple API service wrapping CTT's HTML website.
+Simple API service wrapping [CTT's](https://www.ctt.pt) HTML website.
+
+## Rational
+
+It should make use of the regular CTT website to get tracking information, but in a more programmatic way.
+
+The underlying code should mek use of the `node-fetch` and `node-html-parser` packages to make requests to the CTT website and parse them.
+
+## Usage
+
+The package can be used in a simple way, by just calling the root endpoint (`/`) with a tracking number (`tracking`) as a `GET` parameter.
+
+```bash
+yarn dev
+```
+
+```bash
+curl -X GET http://localhost:3000/?tracking=RR123456789PT
+```
 
 ## Configuration
 
