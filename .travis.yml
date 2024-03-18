@@ -10,11 +10,3 @@ node_js:
 install:
   - npm install
 script: npm run lint && npm test
-deploy:
-  provider: npm
-  email: development@hive.pt
-  api_key:
-    secure: Ug2EUIx72AcdjNh/NYZ7HQhxCKznQ6Qb7noEwpo9Vq+O0NcL/DDry+MtU2sQIBqc7ZCI/2PGfQe7mAAUq9qDavCNc0bD62iabJlYsfw32zmNLSmyGpuAx7k9hDCzkGx7/vzW4ntj7R6Wbx2l9sfg5x9AKjCgDIMnr0G1bb1Tmay92igHhgj46PofIVI8x6bU+ga5+MxqV4arUxy4LUUy8QzKCcEJZQPjEvuLMYhje+48Wlta0HSu/GHSfxOgMIAQrjyGwr6gmmwr2crlYi20TzBfm8X65wsmPUStYjq0y0+7E65Jriu1PO1GDS7Vx1hFA+erme2lEfX8uX+sGN2qEbLLoT+g5boWBSljmgkDTUwei6JQva+G2zoaO9MchHpKGXLs1tkJ1LAgsE1G5nXWNW5oTh92i7kqQhXLZS/tVe50SFVKfZKr7u3cl5xsxnRU3abEQxojMTQD0L4AiMTXNB+yBWiibKEGUu0ADgXhh/LSLlBb2OxuO1JrdIFdx4Nv3tT7MlqyYLOo0Wzu1avyU+ypjlqhjZRzNwbURUO/PSYz0fP3Y4F9AQNq4oU3u/scBVpVmcKu3ByOVPtHAiBAiWY+ewzW9sAF9H+JaBF4VNj9Rx17UaiUnnXKbfF66W7E5wrovnryvYO2Z4U7Mp8bxO7VT/pqVKeNQx6NHt423mE=
-  on:
-    tags: true
-    node_js: "8"
